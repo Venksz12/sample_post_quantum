@@ -1,0 +1,6 @@
+PQ-Auth Sentinel
+Database-free Streamlit prototype
+Dataset: supplied pq_ai_authentication_dataset_20000.csv
+Crypto: ML-DSA-65 via liboqs-python
+ML: Extra Trees + Random Forest soft-voting ensemble
+No private key is stored in transaction records.
