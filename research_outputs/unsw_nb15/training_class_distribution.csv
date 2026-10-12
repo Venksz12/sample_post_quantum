@@ -1,0 +1,11 @@
+class,training_count
+Normal,44800
+Generic,32000
+Exploits,26714
+Fuzzers,14547
+DoS,9811
+Reconnaissance,8393
+Analysis,1600
+Backdoor,1397
+Shellcode,906
+Worms,104

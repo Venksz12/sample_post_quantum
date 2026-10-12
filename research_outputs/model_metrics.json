@@ -1,0 +1,84 @@
+{
+  "selected_algorithm": "Soft Voting (Extra Trees + Random Forest)",
+  "test_accuracy": 0.9905,
+  "test_macro_f1": 0.9904995344771893,
+  "test_weighted_f1": 0.9904995344771894,
+  "test_precision_macro": 0.9905471472408592,
+  "test_recall_macro": 0.9904999999999999,
+  "test_rows": 4000,
+  "train_rows": 12000,
+  "validation_rows": 4000,
+  "dataset_rows": 20000,
+  "labels": [
+    "Flooding",
+    "Normal",
+    "Replay",
+    "Spoofing"
+  ],
+  "confusion_matrix": [
+    [
+      1000,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1000,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      988,
+      12
+    ],
+    [
+      0,
+      0,
+      26,
+      974
+    ]
+  ],
+  "classification_report": {
+    "Flooding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "Replay": {
+      "precision": 0.9743589743589743,
+      "recall": 0.988,
+      "f1-score": 0.9811320754716981,
+      "support": 1000.0
+    },
+    "Spoofing": {
+      "precision": 0.9878296146044625,
+      "recall": 0.974,
+      "f1-score": 0.9808660624370594,
+      "support": 1000.0
+    },
+    "accuracy": 0.9905,
+    "macro avg": {
+      "precision": 0.9905471472408592,
+      "recall": 0.9904999999999999,
+      "f1-score": 0.9904995344771893,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.9905471472408592,
+      "recall": 0.9905,
+      "f1-score": 0.9904995344771894,
+      "support": 4000.0
+    }
+  },
+  "failures": []
+}

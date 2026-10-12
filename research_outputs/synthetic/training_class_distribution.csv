@@ -1,0 +1,5 @@
+class,training_count
+Spoofing,3000
+Normal,3000
+Replay,3000
+Flooding,3000

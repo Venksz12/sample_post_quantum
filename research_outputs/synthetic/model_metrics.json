@@ -1,0 +1,95 @@
+{
+  "dataset": "synthetic",
+  "target": "attack_type",
+  "selected_algorithm": "Soft Voting (RF + Extra Trees)",
+  "test_accuracy": 0.98975,
+  "test_macro_f1": 0.9897492593839905,
+  "test_weighted_f1": 0.9897492593839904,
+  "test_precision_macro": 0.9898193077799484,
+  "test_recall_macro": 0.98975,
+  "train_rows": 12000,
+  "validation_rows": 4000,
+  "test_rows": 4000,
+  "feature_count": 7,
+  "features": [
+    "request_frequency",
+    "inter_request_time_sec",
+    "failed_attempts",
+    "session_duration_min",
+    "device_change",
+    "certificate_valid",
+    "request_pattern_score"
+  ],
+  "labels": [
+    "Flooding",
+    "Normal",
+    "Replay",
+    "Spoofing"
+  ],
+  "confusion_matrix": [
+    [
+      1000,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1000,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      988,
+      12
+    ],
+    [
+      0,
+      0,
+      29,
+      971
+    ]
+  ],
+  "classification_report": {
+    "Flooding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "Replay": {
+      "precision": 0.9714847590953786,
+      "recall": 0.988,
+      "f1-score": 0.9796727813584531,
+      "support": 1000.0
+    },
+    "Spoofing": {
+      "precision": 0.987792472024415,
+      "recall": 0.971,
+      "f1-score": 0.9793242561775088,
+      "support": 1000.0
+    },
+    "accuracy": 0.98975,
+    "macro avg": {
+      "precision": 0.9898193077799484,
+      "recall": 0.98975,
+      "f1-score": 0.9897492593839905,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.9898193077799484,
+      "recall": 0.98975,
+      "f1-score": 0.9897492593839904,
+      "support": 4000.0
+    }
+  },
+  "failures": []
+}

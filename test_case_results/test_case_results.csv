@@ -1,0 +1,28 @@
+Test Case ID,Application,Authentication Type,Input Profile,Model Prediction,Model Confidence,Risk Proxy,Policy Suggestion,Execution Status,ML-DSA Smoke Test,Notes
+TC-01,PQ Research Portal,Secure Login,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-02,PQ Research Portal,Secure Login,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-03,PQ Research Portal,Secure Login,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-04,PQ Research Portal,Session Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-05,PQ Research Portal,Session Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-06,PQ Research Portal,Session Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-07,PQ Research Portal,API Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-08,PQ Research Portal,API Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-09,PQ Research Portal,API Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-10,Student Authentication Portal,Secure Login,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-11,Student Authentication Portal,Secure Login,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-12,Student Authentication Portal,Secure Login,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-13,Student Authentication Portal,Session Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-14,Student Authentication Portal,Session Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-15,Student Authentication Portal,Session Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-16,Student Authentication Portal,API Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-17,Student Authentication Portal,API Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-18,Student Authentication Portal,API Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-19,Secure API Gateway,Secure Login,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-20,Secure API Gateway,Secure Login,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-21,Secure API Gateway,Secure Login,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-22,Secure API Gateway,Session Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-23,Secure API Gateway,Session Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-24,Secure API Gateway,Session Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-25,Secure API Gateway,API Authentication,Baseline / normal,Normal,0.993580246287323,0.0064,ALLOW,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-26,Secure API Gateway,API Authentication,Elevated / suspicious,Spoofing,0.936936393721485,0.9997,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.
+TC-27,Secure API Gateway,API Authentication,High-rate / untrusted context,Spoofing,0.786656734534331,1.0,BLOCK,EXECUTED,PASS,Controlled telemetry profile; no real browser/network attack generated.

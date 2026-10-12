@@ -1,0 +1,5 @@
+,Flooding,Normal,Replay,Spoofing
+Flooding,1000,0,0,0
+Normal,0,1000,0,0
+Replay,0,0,988,12
+Spoofing,0,0,26,974

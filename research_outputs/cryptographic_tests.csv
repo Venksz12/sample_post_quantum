@@ -1,0 +1,4 @@
+Test,Result,Detail
+ML-DSA-65 availability,PASS,Algorithm enabled.
+Valid signature verification,PASS,Sign then verify canonical test bytes.
+Tampered message rejected,PASS,Modified message should not verify.
